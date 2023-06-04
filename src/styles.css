@@ -1,0 +1,63 @@
+body {
+  font-family: "Poppins" sans-serif;
+  background: black;
+}
+
+container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url("../images/Kyoto-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: #272044;
+  background: white;
+  display: inline-block;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 46px;
+  }
+  header h2 {
+    font-size: 26px;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+}
