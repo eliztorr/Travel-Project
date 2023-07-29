@@ -1,6 +1,5 @@
-body {
-  font-family: "Poppins" sans-serif;
-  background: black;
+html {
+  font-family: "roboto";
 }
 
 .container {
@@ -9,9 +8,11 @@ body {
 }
 .grid {
   display: grid;
+  grid-gap: 32px;
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -30,11 +31,12 @@ body {
 .card {
   background-color: white;
   margin: 30px 0;
+  font-family: "Montserrat";
+  font-size: 14px;
 }
 .card-header.grid {
   grid-gap: 0;
 }
-
 .card-body {
   padding: 30px;
 }
@@ -53,20 +55,22 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #126281;
   text-decoration: none;
+  margin-top: 20px;
 }
 .card h4 {
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.5;
   color: #272044;
 }
 .card h5 {
   font-weight: 700;
   font-size: 13px;
-  line-height: 1.5;
   color: #272044;
+}
+.card p {
+  margin-bottom: 15px;
 }
 .text-center {
   text-align: center;
@@ -78,6 +82,7 @@ section {
 
 section.secondary {
   background: #f8f8f8;
+  padding: 20px;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
@@ -93,18 +98,23 @@ header h1 {
   font-size: 86px;
   line-height: 1;
   margin: 30px 0;
+  color: white;
 }
 header h2 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: 5px;
+  color: white;
+  margin-bottom: 20px;
+  opacity: 0.7;
 }
 header h3 {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.5;
   letter-spacing: 5px;
+  color: white;
 }
 header a {
   font-weight: 700;
@@ -155,6 +165,7 @@ main p {
 footer {
   color: white;
   font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
   background-image: linear-gradient(
       rgba(10, 63, 126, 0.6),
       rgba(10, 63, 126, 0.6)
@@ -162,12 +173,13 @@ footer {
     url("/images/japan-night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 50px;
 }
 footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
+  color: white;
 }
 footer p {
   font-weight: 400;
@@ -210,5 +222,8 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
