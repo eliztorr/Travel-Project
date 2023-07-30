@@ -1,9 +1,8 @@
 html {
-  font-family: "roboto";
+  background-color: #0c0a3b;
 }
-
 .container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .grid {
@@ -28,6 +27,9 @@ html {
   width: 100%;
   aspect-ratio: 1 /1;
 }
+.instagram-embeds {
+  margin: 30px 0;
+}
 .card {
   background-color: white;
   margin: 30px 0;
@@ -40,11 +42,9 @@ html {
 .card-body {
   padding: 30px;
 }
-
 .card-footer {
   padding: 0 30px 30px;
 }
-
 .btn {
   display: block;
   color: white;
@@ -55,7 +55,7 @@ html {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #126281;
+  background-color: #087fad;
   text-decoration: none;
   margin-top: 20px;
 }
@@ -78,11 +78,21 @@ html {
 section {
   margin: 0 auto;
   padding: 100px auto;
+  font-family: "Manrope", sans-serif;
 }
-
 section.secondary {
   background: #f8f8f8;
   padding: 20px;
+}
+section.gallery {
+  background: #2f2f4b;
+}
+.gallery h2 {
+  color: white;
+  padding-top: 20px;
+}
+.gallery h3 {
+  color: white;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
@@ -92,6 +102,7 @@ header {
   color: white;
   text-align: center;
   padding: 200px;
+  font-family: "Playfair Display", serif;
 }
 header h1 {
   font-weight: 700;
@@ -118,7 +129,7 @@ header h3 {
 }
 header a {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 3px;
@@ -141,7 +152,7 @@ h2 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  margin: 0;
+  margin-bottom: 10px;
   letter-spacing: 5px;
   color: #272044;
   opacity: 0.3;
@@ -149,7 +160,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   margin: 0;
   line-height: 1.5;
   color: #272044;
@@ -157,14 +168,14 @@ h3 {
 main p {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: #272044;
   opacity: 0.7;
 }
 footer {
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Tajawal", sans-serif;
   font-size: 14px;
   background-image: linear-gradient(
       rgba(10, 63, 126, 0.6),
