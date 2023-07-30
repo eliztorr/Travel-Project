@@ -85,7 +85,7 @@ section.secondary {
   padding: 20px;
 }
 section.gallery {
-  background: #2f2f4b;
+  background: #202052;
 }
 .gallery h2 {
   color: white;
@@ -103,6 +103,7 @@ header {
   text-align: center;
   padding: 200px;
   font-family: "Playfair Display", serif;
+  min-height: 32rem;
 }
 header h1 {
   font-weight: 700;
@@ -214,14 +215,21 @@ footer a {
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
+    min-height: 5rem;
   }
   header h1 {
-    font-size: 46px;
+    font-size: 38px;
   }
   header h2 {
-    font-size: 26px;
+    font-size: 20px;
   }
   header h3 {
+    font-size: 18px;
+  }
+  header a {
+    font-size: 14px;
+  }
+  h3 {
     font-size: 20px;
   }
   .card-header img {
@@ -229,10 +237,10 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 10px;
   }
-  section {
-    padding: 30px;
+  .main-img {
+    display: none;
   }
   .embed {
     aspect-ratio: 16 / 9;
